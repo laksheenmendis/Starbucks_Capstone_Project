@@ -17,9 +17,9 @@ Among several other project options, I chose the Starbucks project, as my capsto
 
 The different files that were used to create this project are located in data folder, as json files. Here is a quick overview of them:
 
-portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
-profile.json - demographic data for each customer
-transcript.json - records for transactions, offers received, offers viewed, and offers completed
+* portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
+* profile.json - demographic data for each customer
+* transcript.json - records for transactions, offers received, offers viewed, and offers completed
 
 Here is the schema and explanation of each variable in the files:
 
