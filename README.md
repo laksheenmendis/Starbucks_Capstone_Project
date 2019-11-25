@@ -8,7 +8,9 @@
    
    4.[File Descriptions](#file-descriptions)
    
-   5.[Acknowledgements](#acknowledgements)
+   5.[Blog Post](#blog-post)
+   
+   6.[Acknowledgements](#acknowledgements)
 
 
 # Project Overview
@@ -74,6 +76,11 @@ An intermediate dataframe, which contains customer_id and avg_amount_spent colum
 4. final-df.pkl
 
 The final dataframe which is being used to train the models. This is saved as a pickle file. This was basically needed during the development stage, to avoid running all of the cells in the 'Starbucks_Capstone_notebook.ipynb' notebook.
+
+# Blog Post
+
+Below is the link to the blog written about this project
+https://medium.com/@cresclux/which-customers-will-respond-to-starbucks-offers-1421365d7a4e
 
 # Acknowledgements
 
