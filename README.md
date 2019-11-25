@@ -7,10 +7,12 @@
    3.[Metrics](#metrics)
    
    4.[File Descriptions](#file-descriptions)
+    
+   5.[Project Results](#project-results)
    
-   5.[Blog Post](#blog-post)
+   6.[Blog Post](#blog-post)
    
-   6.[Acknowledgements](#acknowledgements)
+   7.[Acknowledgements](#acknowledgements)
 
 
 # Project Overview
@@ -76,6 +78,14 @@ An intermediate dataframe, which contains customer_id and avg_amount_spent colum
 4. final-df.pkl
 
 The final dataframe which is being used to train the models. This is saved as a pickle file. This was basically needed during the development stage, to avoid running all of the cells in the 'Starbucks_Capstone_notebook.ipynb' notebook.
+
+# Project Results
+
+Below table shows a summary of the results achieved with a number of different models.
+
+![Results](/Results.png)
+
+RandomForestClassifier yields the best accuracy as well as best F1-score among the 4 classifiers. Thus, there's no debate about the best classifier. Hence, Starbucks could use the RandomForestClassifier with min_samples_split=150, criterion=gini, n_estimators=30 model to predict whether a specific customer will accept a particular offer or not. And then decide on to whom to send out particular offers.
 
 # Blog Post
 
